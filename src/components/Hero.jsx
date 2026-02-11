@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="h-[92vh] w-full flex flex-col justify-around items-center text-xl my-4">
       {/* Hero Text */}
       <div className="w-full flex flex-col items-center text-center gap-5 xl:gap-10">
-        <h1 className="font-bold text-4xl md:text-7xl lg:text-8xl xl:text-9xl">
+        <h1 className="text-4xl md:text-7xl lg:text-8xl xl:text-9xl">
           Luxury car detailing
         </h1>
         <p className="text-gray-500 xl:text-2xl xl:w-[40%]">
@@ -20,11 +20,7 @@ const Hero = () => {
 
       {/* Hero Image */}
       <div className="w-full min-h-0 flex items-center justify-center">
-        <img
-          src={hero}
-          alt="Luxury car"
-          className="object-contain max-h-full max-w-full "
-        />
+        <img src={hero} alt="Luxury car" className="max-h-full max-w-full " />
       </div>
     </div>
   );

@@ -2,3 +2,7 @@ li,
 button {
   cursor: pointer;
 }
+
+main {
+  font-family: "Cinzel", serif;
+}

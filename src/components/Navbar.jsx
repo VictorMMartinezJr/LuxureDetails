@@ -5,12 +5,12 @@ const Navbar = () => {
   const [navActive, setNavActive] = useState(false);
 
   return (
-    <nav className="relative h-[8vh] w-full px-4 flex justify-between items-center xl:px-8">
+    <nav className="relative h-[8vh] w-full flex justify-between items-center">
       <h2 className="md:text-lg xl:text-2xl">LuxureDetails</h2>
 
       {/* Mobile Nav */}
       <ul
-        className={`absolute top-full text-gray-500 right-0 w-full flex flex-col items-center gap-5 py-2 md:hidden ${navActive ? "opacity-100 z-10" : "opacity-0 -z-10"} transition-opacity duration-200 ease-in-out`}
+        className={`absolute top-full text-gray-500 bg-black right-0 w-full flex flex-col items-center gap-5 py-2 md:hidden ${navActive ? "opacity-100 z-10" : "opacity-0 -z-10"} transition-opacity duration-200 ease-in-out`}
       >
         <li>Pricing</li>
         <li>Services</li>

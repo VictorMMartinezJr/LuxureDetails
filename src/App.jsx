@@ -2,6 +2,7 @@ import "./App.css";
 import Booking from "./components/Booking";
 import Care from "./components/Care";
 import Details from "./components/Details";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -13,6 +14,7 @@ function App() {
       <Details />
       <Care />
       <Booking />
+      <Footer />
     </main>
   );
 }

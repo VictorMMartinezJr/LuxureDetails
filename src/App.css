@@ -5,5 +5,9 @@ a {
 }
 
 main {
-  font-family: "Cinzel", serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+#hero-h1 {
+  font-family: "Orbitron", sans-serif;
 }

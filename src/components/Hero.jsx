@@ -6,7 +6,10 @@ const Hero = () => {
     <div className="h-[92vh] w-full flex flex-col justify-around items-center my-20">
       {/* Hero Text */}
       <div className="w-full flex flex-col items-center text-center gap-5 xl:gap-10">
-        <h1 className="text-4xl md:text-7xl lg:text-8xl xl:text-9xl">
+        <h1
+          id="hero-h1"
+          className="font-bold text-4xl md:text-7xl lg:text-8xl xl:text-9xl"
+        >
           Luxury Car Detailing
         </h1>
         <p className="text-gray-500 text-xl xl:text-2xl xl:w-[40%]">

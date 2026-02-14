@@ -3,7 +3,7 @@ import hero from "../assets/hero.png";
 
 const Hero = () => {
   return (
-    <div className="h-[92vh] w-full flex flex-col justify-around items-center my-4">
+    <div className="h-[92vh] w-full flex flex-col justify-around items-center my-20">
       {/* Hero Text */}
       <div className="w-full flex flex-col items-center text-center gap-5 xl:gap-10">
         <h1 className="text-4xl md:text-7xl lg:text-8xl xl:text-9xl">
@@ -14,7 +14,7 @@ const Hero = () => {
           elegance and refinement at every turn.
         </p>
         <button className="flex gap-2 text-2xl">
-          Let's connect <GoArrowUpRight />
+          Let's connect <GoArrowUpRight className="text-3xl" />
         </button>
       </div>
 

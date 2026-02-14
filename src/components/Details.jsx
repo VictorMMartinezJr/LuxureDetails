@@ -5,7 +5,7 @@ const Details = () => {
   return (
     <div className="overflow-hidden">
       <div className="md:flex md:justify-between md:items-center">
-        <h2 className="text-2xl sm:text-3xl  lg:text-4xl">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl">
           Love in Every Detail
         </h2>
         <p className="text-gray-500 md:w-1/2 xl:text-2xl xl:w-[30%]">
